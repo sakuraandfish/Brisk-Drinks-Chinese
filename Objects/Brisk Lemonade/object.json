@@ -1,0 +1,51 @@
+{
+    "Name": "Brisk Lemonade",
+    "Description": "Lemonade, but better.",
+    "Category": "Cooking",
+    "Edibility": 120,
+    "EdibleIsDrink": true,
+      "EdibleBuffs":
+      {
+          "Farming": 5,
+          "Fishing": 0,
+          "Mining": 0,
+          "Luck": 0,
+          "Foraging": 0,
+          "MaxStamina": 0,
+          "MagnetRadius": 0,
+          "Speed": 2,
+          "Defense": 0,
+          "Attack": 0,
+          "Duration": 360,
+      },
+    "Price": 2000,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+           "Object": "Lemon",
+           "Count": 4,
+        },
+        {
+           "Object": 245,
+           "Count": 1,
+        }],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 2000,
+        "PurchaseRequirements": null,
+        "EnableWithMod": "ppja.moretrees",
+    },
+    "GiftTastes": 
+    {
+      "Love": ["Abigail", "Sam", "Sebastian"],
+    "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Gus", "Haley", "Leah", "Linus", "Maru", "Robin", "Sandy", "Shane", "Wizard"],
+    "Dislike": ["Dwarf", "Evelyn", "George", "Jodi", "Kent", "Krobus", "Harvey", "Lewis", "Marnie", "Pam", "Penny", "Pierre"],
+    },
+	   "NameLocalization":{ //名称定位
+   "zh":"清爽柠檬水"},
+   "DescriptionLocalization":{ //描述定位
+   "zh":"柠檬水，但更好。"},
+}
